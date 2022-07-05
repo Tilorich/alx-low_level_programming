@@ -14,7 +14,7 @@ int main(void)
 		_putchar(name[x]);
 	}
 	_putchar('\n');
-	return 0;
+	return (0);
 
 }
 
