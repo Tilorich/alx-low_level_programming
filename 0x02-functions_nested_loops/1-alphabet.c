@@ -5,10 +5,9 @@
  *
  * Return: Always 0(success)
  */
-void print_alphabet(void)
 int main(void)
 {
-	void print_alphabet(void)
+	void print_alphabet_x10(void)
 	{
 		char x;
 
