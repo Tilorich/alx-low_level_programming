@@ -13,8 +13,8 @@ int _islower(int c)
 	{
 		if (alp == c)
 		{
-			lower_alp(1);
+			lower_alp = 1;
 		}
 	}
-	Return (lower_alp);
+	return (lower_alp);
 }
