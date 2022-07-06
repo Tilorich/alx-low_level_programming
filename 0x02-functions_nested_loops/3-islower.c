@@ -15,6 +15,10 @@ int _islower(int c)
 		{
 			lower_alp = 1;
 		}
+		else
+		{
+			lower_alp = 0;
+		}
 	}
 	return (lower_alp);
 }
