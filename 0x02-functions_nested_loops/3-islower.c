@@ -2,22 +2,18 @@
 /**
  * _islower - checks for lowercase character
  *
- * Return: always 0(success)
+ * Return: 1 if lowercase otherwise 0
  */
 int _islower(int c)
 {
 	char alp;
-	int lower_alp;
+	int lower_alp = 0;
 
 	for (alp = 'a'; alp <= 'z'; alp++)
 	{
 		if (alp == c)
 		{
 			lower_alp = 1;
-		}
-		else
-		{
-			lower_alp = 0;
 		}
 	}
 	return (lower_alp);
