@@ -13,26 +13,26 @@ void print_to_98(int n)
 	{
 		for (; n <= 98; n++)
 		{
-			_putchar('n');
+			printf("%d", n);
 			if (n == 98)
 			{
 				continue;
 			}
-			printf(", ");
+			printf("\n");
 		}
-		_putchar('\n');
+		printf("%d", n);
 	}
 	else
 	{
 		for (; n >= 98; n--)
 		{
-			_putchar('n');
+			printf("%d", n);
 			if (n == 98)
 			{
 				continue;
 			}
 			printf(", ");
 		}
-		_putchar('\n');
+		printf("\n");
 	}
 }
