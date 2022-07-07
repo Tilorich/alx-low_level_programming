@@ -3,7 +3,8 @@
 /**
  * print_numbers - Prints the numbers from 0 to p
  * followed by a new line
- * Return: Nothing
+ *
+ * Return: always 0(success)
  */
 void print_numbers(void)
 {
