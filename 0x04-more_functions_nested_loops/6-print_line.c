@@ -1,10 +1,9 @@
-#include <stdio.h>
 #include "main.h"
 /**
  * print_line - function that draws a straight line
  * @n: integer variables
  *
- * Return: Nothing
+ * Return: Always 0
  */
 
 void print_line(int n)
