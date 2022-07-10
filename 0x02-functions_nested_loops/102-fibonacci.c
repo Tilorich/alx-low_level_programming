@@ -12,6 +12,7 @@ int main(void)
 
 	fibonacci[0] = 1;
 	fibonacci[1] = 2;
+	printf("%ld, %ld, ", fibonacci[0], fibonacci[1]);
 
 	for (n = 2; n < 50; n++)
 	{
