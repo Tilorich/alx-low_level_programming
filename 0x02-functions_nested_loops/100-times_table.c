@@ -10,17 +10,17 @@ void print_times_table(int n)
 {
 	int x, y;
 
-	if (n > 0 && n < 15)
+	if (n < 0 || n > 15)
+		return;
+	
+	for (x = 0; x <= n; x++)
 	{
-		for (x = 0; x <= n; x++)
+		_putchar('0');
+		for (y = 1; y <= n; y++)
 		{
-			_putchar('0');
-			for (y = 0; y <= n; y++)
-			{
-				putformat(x * y);
-			}
-			_putchar('\n');
+			putformat(x * y);
 		}
+		_putchar('\n');
 	}
 }
 
