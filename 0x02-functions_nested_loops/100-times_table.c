@@ -8,7 +8,7 @@ void print(int var)
 {
 	if (var / 10)
 	{
-		print (var / 10);
+		print(var / 10);
 	}
 	_putchar('0' + (var % 10));
 }
@@ -44,11 +44,11 @@ void print_times_table(int n)
 			else if (y < 100)
 			{
 				_putchar(' ');
-				_putchar(y);
+				print(y);
 			}
 			else
 			{
-				_putchar(y);
+				print(y);
 			}
 			if (x < n)
 			{
