@@ -7,7 +7,7 @@
  *Return: string.
  */
 
-char *_strcat(char *dest, char *src)
+char *_strcat(char *dest, char *src, int n)
 {
 	int i = 0, j = 0;
 
