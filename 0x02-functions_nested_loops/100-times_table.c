@@ -31,7 +31,7 @@ void print_times_table(int n)
 		for (x = 0; x <= n; x++)
 		{
 			y = i * x;
-			if (y == 0)
+			if (x == 0)
 			{
 				_putchar('0' + y);
 			}
@@ -44,7 +44,7 @@ void print_times_table(int n)
 			else if (y < 100)
 			{
 				_putchar(' ');
-				_putchar('0' + y);
+				_putchar(y);
 			}
 			else
 			{
